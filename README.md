@@ -15,6 +15,32 @@ A real-time reverse auction platform where buyers post RFQs and suppliers compet
 
 ---
 
+## Dependencies
+
+### Backend (`backend/package.json`)
+
+| Package    | Version  | Purpose                              |
+|------------|----------|--------------------------------------|
+| express    | ^4.18.2  | HTTP server and REST API routing     |
+| mongoose   | ^8.3.0   | MongoDB ODM / schema modeling        |
+| ws         | ^8.17.0  | WebSocket server                     |
+| cors       | ^2.8.5   | Cross-origin request handling        |
+| dotenv     | ^16.4.5  | Load environment variables from .env |
+| uuid       | ^9.0.0   | Generate unique IDs for RFQ and bids |
+| nodemon    | ^3.1.0   | Auto-restart server on file changes (dev) |
+
+### Frontend (`frontend/package.json`)
+
+| Package          | Version  | Purpose                              |
+|------------------|----------|--------------------------------------|
+| react            | ^18.2.0  | UI library                           |
+| react-dom        | ^18.2.0  | React DOM renderer                   |
+| react-router-dom | ^6.22.0  | Client-side routing                  |
+| vite             | ^5.2.0   | Build tool and dev server            |
+| @vitejs/plugin-react | ^4.2.1 | Vite plugin for React/JSX support  |
+
+---
+
 ## Project Structure
 
 ```
